@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stafróf 1</title>
+    <link rel="stylesheet" href="stilar/still.css">
+
+</head>
+<body>
+    <div class="divy">
+    <p>heloooooo</p>
+    <textarea name="" spellcheck="false" class="divy" cols="30" rows="10"></textarea>
+</div>
+<div class="verticalText">
+    
+
+</div>
+<textarea spellcheck="false" class="verticalText"></textarea>
+<p>dafijsodifjoaisdf a</p>
+
+<textarea name="" class="vertical" cols="30" rows="10"></textarea>
+
+<p contenteditable="true">Write something to here</p>
+<input type="text" class="verticaltext">
+
+    <input type="text">
+
+<p class="vertical">hehriufhiuh</p>
+<form action="">
+<input type="text" class="vertical" style="  -webkit-writing-mode: vertical-rl;
+-moz-writing-mode: vertical-rl;
+-ms-writing-mode: vertical-rl;
+writing-mode: vertical-rl; padding-top:8px; padding-bottom:8px; margin: 0; border: solid 1px #000000; font-size:22px;" />
+</form>
+
+<div class='divy' contentEditable="true">Click and edit the text</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
+
+
+@font-face {
+    font-family: "Myfont";
+    src: url("/letur/Myfont-Regular.otf") format("opentype");
+    
+  }
+
+p {
+    font-family: "Myfont";
+      writing-mode: vertical-lr;
+      text-orientation: upright;
+      width:50%;
+      height:150px;
+ 
+}
+
+textarea {
+  display: flex;
+  /* -webkit-writing-mode: vertical-lr;
+  -webkit-rtl-ordering: logical; */
+
+  /* writing-mode: vertical-lr;
+  text-orientation: upright; */
+
+
+}
+
+.divy {
+    font-family: "Myfont";
+    background-color: rgb(218, 116, 116);
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    letter-spacing: 8px;
+    line-height: 40px;
+    flex-flow: column wrap;
+  }
+
+#textareadivy {
+    text-decoration: none;
+}
+
+
+input[type=text]
+{
+   height: 15px; 
+   line-height: 15px;
+}
+
+.vericaltext{
+  width:1px;
+  word-wrap: break-word;
+  font-family: monospace; /* this is just for good looks */
+}
+
+.vertical {
+  -webkit-writing-mode: vertical-rl;
+  -moz-writing-mode: vertical-rl;
+  -ms-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+}

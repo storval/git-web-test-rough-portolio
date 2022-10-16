@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "Stafroid";
+  src: url("../letur/Stafroid-Regular.otf") format("opentype");
+  }
+
+button {
+  display: inline-block;
+  background-color: none;
+  border: 0;
+  font-size: 20px;
+
+}
+
+a {
+  font-size: 20px;
+  color: black;
+}
+
+.parent {
+  display: flex;
+  color: antiquewhite;
+}
+
+.head {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.divy {
+    font-family: "Stafroid";
+    width: 500px;
+    height: 500px;
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-color: midnightblue;
+    background-size: cover;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    margin: 60px 7px;
+    /* margin-left: 7px;
+    margin-right: 7px; */
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+    font-size: 30px;
+    outline: none;
+    resize: both;
+    overflow: hidden;
+    min-width: 200px;
+    min-height: 200px;
+    letter-spacing: 8px;
+    line-height: 40px; 
+
+  }
+
+  .mynd1 {
+    background-image: url("../myndir/20201231_235803.jpg");
+  }
+
+  .mynd2 {
+    background-image: url("../myndir/20210323_170241.jpg");
+  }
+
+  .mynd3 {
+    background-image: url("../myndir/PICT0213.JPG");
+  }
+
+  .mynd4 {
+    background-image: url("../myndir/PICT0280.JPG");
+  }
+
+  .mynd5 {
+    background-image: url("../myndir/PICT0284.JPG");
+  }
+
+
+  
+
+
+  p {
+      font-family: "Stafroid";
+      writing-mode: vertical-lr;
+      text-orientation: upright;
+      width:50%;
+      height:150px;
+      color: antiquewhite;
+}
