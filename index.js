@@ -23,3 +23,16 @@
 // }
 
 // soon...
+
+// alert("hello world!");
+
+// function opnaMynd() {
+//     eyeliner1.src = "img.png"; //id.src
+//     eyeliner1.height="500"; //Your desired Height
+//     eyeliner1.width="219"; //Your desired Width
+//   }
+  
+
+function opnaMynd() {
+    myndG.src = ""
+}

@@ -1,0 +1,5 @@
+smá erfitt að finna útúr þessi með muninn á main og master branch til að byrja með
+skil það aðeins betur núna
+passa að vera ekki búinn að skýra master branchið 'main'
+og búa svo til nýtt branch sem heitir 'master'
+trial and error, ekkert er ómögulegt
