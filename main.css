@@ -13,12 +13,28 @@ pre {
   color: white;
 }
 
+hr {
+  height: 2px;
+  border-width: 0;
+  color: white;
+  background-color: white;
+}
+
+h2 {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+
 a {
   text-decoration: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
   text-align: center;
 }
+
 
 a:hover {
   opacity: 70%;
@@ -57,6 +73,14 @@ a:hover {
   text-align: center;
   column-count: 4;
   column-gap: 16px;
+}
+
+
+
+
+.main-midja-art {
+font-size: 30px;
+margin-bottom: 160px;
 }
 
 
@@ -107,33 +131,53 @@ a:hover {
   text-align: center;
 }
 
+.scroll-text {
+  letter-spacing: 2px;
+
+}
+
+marquee {
+  width: -webkit-fill-available;
+}
 @media (max-width: 600px) {
   .vidd {
     width: auto;
+    
   };
 };
 
 
 
-
-
 @media (max-width: 1199px) {
   .main-midja {
-    column-count: 3;
+    column-count: 4;
   }
 }
 
 @media (max-width: 991px) {
   .main-midja {
-    column-count: 2;
+    column-count: 3;
   }
 }
 
 @media (max-width: 767px) {
   .main-midja {
-    column-count: 1;
+    max-height: 5000px;
+    column-count: 2;
+    overflow: hidden;
   }
 }
+
+@media (max-width: 650px) {
+  .main-midja {
+    max-height: 4000px;
+    column-count: 1;
+    overflow: hidden;
+  };
+};
+
+
+
 
 
 

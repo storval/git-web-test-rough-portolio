@@ -33,6 +33,15 @@
 //   }
   
 
-function opnaMynd() {
-    myndG.src = ""
-}
+// function opnaMynd() {
+//     myndG.src = ""
+// }
+
+
+//  -------possible rand á myndirnar, uppröðun og svona...
+// var randomMyndir = $("main-midja.myndir");
+// for(var i = 0; i  < randomMyndir.length; i++){
+//     var target = Math.floor(Math.random() * randomMyndir.length -1) + 1;
+//     var target2 = Math.floor(Math.random() * randomMyndir.length -1) +1;
+//     randomMyndir.eq(target).before(cards.eq(target2));
+// }
