@@ -110,5 +110,5 @@ link fyrir texta overlay
 
 https://www.w3docs.com/snippets/css/how-to-change-the-style-of-the-title-attribute-inside-an-anchor-tag.html
 
-
+https://stackoverflow.com/questions/69614316/github-desktop-upload-limit
    -->

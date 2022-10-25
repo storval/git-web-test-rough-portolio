@@ -220,10 +220,7 @@ marquee {
   };
 };
 
-.myndir {
-  position: relative;
-  width: 50%;
-}
+
 
 
 /* .myndir:hover .mynd {
@@ -254,6 +251,28 @@ marquee {
   transition: .5s ease;
   backface-visibility: hidden;
 }
+
+.mynd-a4 {
+  opacity: 1;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  margin: 20px;
+}
+
+.myndir {
+  position: relative;
+  width: 100%;
+}
+
+.myndir-a4 {
+  position: relative;
+  margin: 20px;
+  width: 80%;
+}
+
 
 .mynd-box-texti {
   position: absolute;

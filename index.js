@@ -45,3 +45,9 @@
 //     var target2 = Math.floor(Math.random() * randomMyndir.length -1) +1;
 //     randomMyndir.eq(target).before(cards.eq(target2));
 // }
+
+
+function resizeImage(img) {
+    img.style.width = "500px";
+    img.style.height = "500px";
+  }
