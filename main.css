@@ -13,11 +13,24 @@ pre {
   color: white;
 }
 
+
+span {
+  margin-top: 30px;
+  margin-right: 30px;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+
+
+
 hr {
   height: 2px;
   border-width: 0;
   color: white;
   background-color: white;
+  width: 100%;
 }
 
 h2 {
@@ -81,8 +94,31 @@ a:hover {
 
 }
 
-.hamborgari {
-  font-size: 16px;
+.main-midja-art-myndir {
+  margin-top: 20px;
+  column-count: 3;
+  overflow: hidden;
+}
+
+@media (max-width: 1150px) {
+  .main-midja-art-myndir {
+    column-count: 2;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 910px) {
+  .main-midja-art-myndir {
+    column-count: 1;
+    overflow: hidden;
+  }
+}
+
+
+
+.sticky-menu {
+  margin-top: 20px;
+  font-size: 20px;
   column-count: 3;
   position: -webkit-sticky;
   position: sticky;
@@ -103,10 +139,22 @@ a:hover {
 
 
 .main-midja-art {
-font-size: 30px;
-margin-bottom: 160px;
+  font-size: 30px;
+  margin-bottom: 160px;
 }
 
+.a4-drawings {
+  margin-right: 30px;
+  word-spacing: normal;
+}
+
+.a4-menu {
+  display: inline-block;
+  font-size: 30px;
+  margin-bottom: 160px;
+  text-align: center;
+  /* word-spacing: 20px; */
+}
 
 
 
@@ -148,7 +196,7 @@ margin-bottom: 160px;
   margin-bottom: 100px;
 }
 
-.h2-video{
+.h2-video {
   font-size: 25px;
   margin-bottom: 100px;
 }
@@ -157,7 +205,9 @@ margin-bottom: 160px;
   text-align: center;
 }
 
-
+.punktur {
+  display: inline-block;
+}
 
 .portfolio-pdf {
   text-align: center;
@@ -168,11 +218,11 @@ margin-bottom: 160px;
 
 .portfolio-box {
   text-align: center;
-    width: 1000px;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  width: 1000px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 .scroll-text {
@@ -183,12 +233,17 @@ marquee {
   width: -webkit-fill-available;
   margin-top: -8px;
 }
+
 @media (max-width: 600px) {
   .vidd {
     width: auto;
-    
-  };
-};
+
+  }
+
+  ;
+}
+
+;
 
 
 
@@ -214,11 +269,15 @@ marquee {
 
 @media (max-width: 650px) {
   .main-midja {
-    max-height: 4000px;
+    max-height: 2000px;
     column-count: 1;
     overflow: hidden;
-  };
-};
+  }
+
+  ;
+}
+
+;
 
 
 
@@ -293,6 +352,7 @@ marquee {
   visibility: visible;
 }
 
+
 [data-title]:after {
   content: attr(data-title);
   /* position: absolute; */
@@ -300,7 +360,7 @@ marquee {
   padding: 4px 4px 4px 8px;
   color: white;
   display: inline-block;
-  
+
   /* -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px; */
@@ -317,7 +377,133 @@ marquee {
   z-index: 99999;
   visibility: hidden;
 }
+
 [data-title] {
   position: relative;
 }
 
+
+
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */
+  
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+/* .modal-content,
+#caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.45s;
+  animation-name: zoom;
+  animation-duration: 0.45s;
+  overflow: auto;
+} */
+
+#myImg:hover {
+cursor: pointer;
+}
+
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0)
+  }
+
+  to {
+    -webkit-transform: scale(1)
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0.1)
+  }
+
+  to {
+    transform: scale(1)
+  }
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: white;
+  font-size: 60px;
+  font-weight: bold;;
+}
+
+.close:hover{
+  color: #FFD270;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+#myImg {
+  opacity: 1;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  transition: .45s ease;
+  backface-visibility: hidden;
+  margin: 20px;
+}
+
+
+.a2022, .a2021, .a2020, .a2019, .older {
+margin-right: 30px;
+}
+
+
+/* þúsund þakkir/ thank you Nick Parsons
+https://stackoverflow.com/questions/53983082/how-to-enlarge-a-image-using-javascript
+ */

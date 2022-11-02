@@ -5,6 +5,9 @@ vera með meira diverse selection, þeas líka eh gamalt,
 -diverse fólk og outsider listamenn, stórval, muggur, hilma af klint etc,
 
 skoða að mass minnka myndirnar,
+In the end, the images on your site should not go beyond 500 KB (= 0.5 MB) in file size.
+https://www.foregroundweb.com/image-size/
+
 vefhýsing 1984.is hvaða lén?
 aronbjarklind.is
 forvitinn.is
@@ -14,6 +17,16 @@ VERA MEÐ WEBSITE LAUNCH !!
 
 klára að tala við póstinn fyrir hólka a4 sendingakost og mass eitthvað
 ákveða verðskrá
+
+lækka res á öllum myndunum?
+minni biðtími í load og minni líkur ´á copyright issues
+
+hringja í myndstef og spurja þau útí þetta
+
+finna út hugmynd hvað skal gera í símastærð fyrir a4 teikningarnar,
+
+það VERÐUR að vera hægt að ýta á myndina og hún stækkast
+bite the bullet, finna útúr javascriptinu og gera þetta
 
 rammi eða ekki rammi ??
 
@@ -31,6 +44,8 @@ svo að hún opnist í sýnum eigin glugga svo að fólk sjái hana í fullri st
 og geti stækkað og minnkað
 
 bæta við efni á Art sublink dótið
+
+laga systir í systur
 
 
 
