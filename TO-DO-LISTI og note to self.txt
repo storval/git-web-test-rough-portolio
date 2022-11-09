@@ -12,8 +12,20 @@ vefhýsing 1984.is hvaða lén?
 aronbjarklind.is
 forvitinn.is
 
+í data-title get ég sett inn seld eða kannski ártal/
+bara titil, hugsa hvað ég vil að gerist þegar fólk hoverar yfir með músinni
+
+hvaða myndir birtast alveg fyrst þegar fólk ýtir á A-4,
+væntanlega mínar A-team myndir, flokka þetta eftir moodi og
+aldri-ysh?
+hver síða kannski með eitthvað mismunandi skemmtilegt,
+
 VERA MEÐ WEBSITE LAUNCH !!
 /sýningu ????????
+
+klára footer og header, solid copy fyrir allt
+
+þegar maður er á a4-px.html að þá er gult á síðunni sem maður er á
 
 klára að tala við póstinn fyrir hólka a4 sendingakost og mass eitthvað
 ákveða verðskrá

@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */    
+
 // function enlargeImg(){
 //     let theImage = document.getElementsByClassName("mynd1");
 //     theImage.width = theImage.width * 2;
@@ -47,36 +49,48 @@
 // }
 
 
-window.onload = function() { // add window.onload here and set it euqal to a function
-  // Get the modal
-  var modal = document.getElementById('myModal');
-  
-  // Get the image and insert it inside the modal - use its "alt" text as a caption
-  
-  var img = document.getElementById('myImg');
-  var modalImg = document.getElementById("img01");
-  var captionText = document.getElementById("caption");
-  
 
-  img.onclick = function() {
-    modal.style.display = "block";
 
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
 
-  };
+// --------------------------------------------------------------------------------
 
-  // Get the <span> element that closes the modal
-  var span = document.getElementsByClassName("modal")[0];
+window.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("main-midja-art-myndir").addEventListener("click", e => {
+    const tgt = e.target;
+    if (!tgt.matches(".myImg") && !tgt.matches(".modal") && !tgt.matches(".close")) return; // not the image or close
+    const parent = tgt.closest("div.myndir-a4");
+    const modal = parent.querySelector('.modal');
 
-  // When the user clicks on <span> (x), close the modal
-  span.onclick = function() {
-    modal.style.display = "none";
-  };
+    if (tgt.matches(".modal")) {
+      modal.hidden = true;
+      return;
+    }
+    if (tgt.matches(".close")) {
+      modal.hidden = true;
+      return;
+    }
 
-  
+    const modalImg = parent.querySelector("img.modal-content");
+    const captionText = parent.querySelector(".caption");
+    const marquee = document.getElementsByClassName('.marquee-boy');
+    modal.hidden = false;
+    marquee.hidden = false;
+    modalImg.src = tgt.src;
+    captionText.innerHTML = tgt.alt;
+    
+  });
+});
 
-}; // close the function
+var span = document.getElementsByClassName("modal")[0];
+
+span.onclick = function() {
+  modal.hidden = true;
+};
+
+
+
+
+ // close the function
 
 
 
