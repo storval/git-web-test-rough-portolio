@@ -1,76 +1,61 @@
-vera með meira diverse selection, þeas líka eh gamalt,
---inní art vera með history, gamalt gamalt, myndlo,
------Laugavegur 116,fyrsta super lovely great time, linkur á Archive.org, inkur á YT mitt,
---áhugaverðir listamenn, skína ljósi á hvað mér finnst vera gott,
--diverse fólk og outsider listamenn, stórval, muggur, hilma af klint etc,
+forgangsraða þessum lista, hvað ÞARF að klára fyrir launch
 
-skoða að mass minnka myndirnar,
-In the end, the images on your site should not go beyond 500 KB (= 0.5 MB) in file size.
-https://www.foregroundweb.com/image-size/
 
-vefhýsing 1984.is hvaða lén?
-aronbjarklind.is
-forvitinn.is
+1. laga systir í systur
+2. 
 
-í data-title get ég sett inn seld eða kannski ártal/
-bara titil, hugsa hvað ég vil að gerist þegar fólk hoverar yfir með músinni
+1984.is -- aronbjarklind.is
 
-hvaða myndir birtast alveg fyrst þegar fólk ýtir á A-4,
-væntanlega mínar A-team myndir, flokka þetta eftir moodi og
-aldri-ysh?
-hver síða kannski með eitthvað mismunandi skemmtilegt,
-
-VERA MEÐ WEBSITE LAUNCH !!
-/sýningu ????????
-
-klára footer og header, solid copy fyrir allt
-
-þegar maður er á a4-px.html að þá er gult á síðunni sem maður er á
 
 klára að tala við póstinn fyrir hólka a4 sendingakost og mass eitthvað
 ákveða verðskrá
 
-lækka res á öllum myndunum?
-minni biðtími í load og minni líkur ´á copyright issues
 
-hringja í myndstef og spurja þau útí þetta
+FARA AFTUR YFIR MYNDIRNAR ÁÐUR EN SÍÐAN FER Í LOFTIÐ SVO AÐ ÞAÐ
+FARI EKKI EITTHVAÐ OF PERSÓNULEGT
 
-finna út hugmynd hvað skal gera í símastærð fyrir a4 teikningarnar,
 
-það VERÐUR að vera hægt að ýta á myndina og hún stækkast
-bite the bullet, finna útúr javascriptinu og gera þetta
+klára footer og header, solid copy fyrir allt
 
-rammi eða ekki rammi ??
+titil og undirtitill á ALLAR myndirnar,
+gera þetta á sama tíma og ég fer yfir hvort að eh sé 2 personal
 
-tala við Odd áður en ég launcha síðunni, fá hann til að skoða overview
-og koma með punkta hvað skiptir máli og svona
-vera þá líka búinn að linka á hann sem eitt af mínum
-áhugaverðu og skemmtilegu listamönnum sem ég mæli með..
+
+
+
+
+
+
+
+
+
+
+
+hugmyndir það sem vantar inní möppurnar:
+
+setja fleiri vid inn
+
+misc:
+-----Laugavegur 116,fyrsta super lovely great time, linkur á Archive.org, inkur á YT mitt,
+
+VERA MEÐ WEBSITE LAUNCH !!
+/sýningu ????????
+
+
+framtíðarplan er að setja tölurnar fyrir a4-síðurnar í headerinn líka
+með hr tag í kringum, setja hr í kringum footerinn líka
+--skoða hvernig á að gera multi-use html, man ekki hvað það er ejs 
+---þannig að það sé hægt að breyta einum <html/hvaðsemer> og það breytist hjá mörgun
+
+finna út úr hvort ég vilji arrow key function sem skiptir um myndir
 
 finna útúr copyright, tala við myndstef
 
-forgangsraða þessum lista, hvað ÞARF að klára fyrir launch
+TAB sem heitir INSPO inní ARTáhugaverðir listamenn, skína ljósi á hvað mér finnst vera gott,
+-diverse fólk og outsider listamenn, stórval, muggur, hilma af klint etc,
+en líka vini mína, stein, sindra, Odd etc.... link á alla góða<3 villa, áróru, stelpurnar
 
-hægt að hafa einfaldega link á myndina sjálfa þegar það er ýtt á hana,
-svo að hún opnist í sýnum eigin glugga svo að fólk sjái hana í fullri stærð
-og geti stækkað og minnkað
+--inní art vera með ´
+history, gamalt gamalt, myndlo,
 
-bæta við efni á Art sublink dótið
-
-laga systir í systur
-
-
-
-
---A4
-frá hvaða tímabili, specifia í drop down? hambo style á A4 síðunni sjálfri
-
-PAINTINGS
-
-COLLAB
-
-VIDEOS
-
-SULPS
-
-MISC
+rammi í boði coming soon
