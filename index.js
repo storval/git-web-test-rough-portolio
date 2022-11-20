@@ -196,6 +196,12 @@ span.onclick = function() {
 
 
 
+//  https://stackoverflow.com/questions/12368502/how-to-change-default-image-for-pointer/12369387#12369387
 
-
-
+// var elms = document.getElementsByTagName("*");
+// var n = elms.length;
+// for(var i = 0; i < n; i ++) {
+//     if(window.getComputedStyle(elms[i]).cursor == "pointer") {
+//         elms[i].style.cursor = "url(fyrsta-sol.cur)";
+//     }
+// }
