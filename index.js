@@ -205,3 +205,8 @@ span.onclick = function() {
 //         elms[i].style.cursor = "url(fyrsta-sol.cur)";
 //     }
 // }
+
+
+/* takk/ thank you Nick Parsons
+https://stackoverflow.com/questions/53983082/how-to-enlarge-a-image-using-javascript
+ */

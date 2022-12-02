@@ -1,9 +1,7 @@
 body {
   background-color: black;
   cursor: url('bara-hvit-symmetry-stjarna.cur'), auto;
-
 }
-
 
 font {
   text-decoration: none;
@@ -15,9 +13,6 @@ font {
 pre {
   color: white;
 }
-
-
-
 
 span {
   margin-top: 30px;
@@ -64,9 +59,7 @@ a:hover {
 
 img:hover {
   cursor: url('stjarna-pointer.cur'),default;
- 
 }
-
 
 .logo-nafn {
   margin: 50px;
@@ -104,8 +97,6 @@ img:hover {
   text-align: center;
 }
 
-
-
 .a4-drawings {
   margin-right: 30px;
   word-spacing: normal;
@@ -139,8 +130,7 @@ img:hover {
   width: 100%;
 }
 
-
-.vid{
+.vid {
   margin-bottom: 50px;
   padding: 30px;
 }
@@ -187,25 +177,6 @@ marquee {
   }
 }
 
-/* @media (max-width: 1199px) {
-  .main-midja {
-    column-count: 3;
-  }
-}
-
-@media (max-width: 991px) {
-  .main-midja {
-    column-count: 2;
-  }------------------------------------er þetta örugglega bara gamla en ekki eitthvað sem skiptir máli??
-}
-
-@media (max-width: 767px) {
-  .main-midja {
-    max-height: 5000px;
-    column-count: 1;
-    overflow: hidden;
-  }
-} */
 #textabox-um-mig {
   text-align: left;
 margin-left: 200px;
@@ -221,8 +192,6 @@ margin-right: 200px;
 
 .main-midja img {
   width: 90%;
-  /* margin-top: 16px;
-  margin-bottom: 16px; */
 }
 
 #main-midja-art-myndir, #main-art2, #main-art3, #main-art4 {
@@ -233,25 +202,9 @@ margin-right: 200px;
 }
 
 .text-left {
-
 margin-left: 30px;
   font-size: 20px;
-/* position: -webkit-sticky;
-  position: sticky;
-  top: 25px;
-  z-index: 1;
-  background-color: black; */
-
 }
-
-
-/* 
-
-
-  text-align: center;
- */
-
-
 
 @media (max-width: 1150px) {
   #main-midja-art-myndir, #main-art2, #main-art3 {
@@ -276,8 +229,6 @@ margin-left: 30px;
     column-count: 1;
   }
 }
-
-
 
 .main-midja {
   text-align: center;
@@ -331,22 +282,6 @@ margin-left: 30px;
   width: 80%;
 }
 
-/* .myndir-a4-portrait {
-  position: relative;
-  margin: 20px;
-  width: 80%;
-} */
-
-/* .mynd-box-texti {
-  position: absolute;
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
-  font-size: 16px;
-  margin-top: -110px;
-  margin-right: -3000px;
-  margin-left: 50px;
-} */
-
 [data-title]:hover:after {
   opacity: 1;
   transition: all 0s ease 0s;
@@ -380,17 +315,14 @@ margin-left: 30px;
   top: 0;
   width: 100%;
   height: 100%;
-  /* overflow: auto; */
   background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.925);
 }
 
 .modal-content {
   max-width: 700px;
   max-height: 500px;
   z-index: 2;
-
-
 }
 
 
@@ -427,7 +359,6 @@ margin-top: 30px;
   font-size: 30px;
   text-align: left;
  display: flex;
-   /* justify-content: space-around; */
 }
 
 .music-man img:hover {
@@ -530,6 +461,3 @@ margin-top: 30px;
 
 
 
-/* þúsund þakkir/ thank you Nick Parsons
-https://stackoverflow.com/questions/53983082/how-to-enlarge-a-image-using-javascript
- */
