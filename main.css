@@ -54,7 +54,6 @@ a {
   text-decoration: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
-  text-align: center;
   font-weight: bold;
   font-size: 30px;
   
@@ -217,7 +216,7 @@ font-weight: bold;
 
 .text-left {
 margin-left: 30px;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 @media (max-width: 1150px) {
