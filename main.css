@@ -1,6 +1,7 @@
 body {
   background-color: black;
   cursor: url('bara-hvit-symmetry-stjarna.cur'), auto;
+  /* filter: invert(1); */
 }
 
 font {
@@ -12,6 +13,11 @@ font {
 
 pre {
   color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: bold;
 }
 
 span {
@@ -50,6 +56,8 @@ a {
   color: white;
   text-align: center;
   font-weight: bold;
+  font-size: 30px;
+  
 }
 
 a:hover {
@@ -67,7 +75,8 @@ img:hover {
 
 .um-midja {
   margin-bottom: 85px;
-  margin-top: 100px;
+  margin-top: 30px;
+  font-size: 30px;
 }
 
 .nafnid {
@@ -87,7 +96,7 @@ img:hover {
 }
 
 .sticky-menu {
-  font-size: 20px;
+  font-size: 25px;
   column-count: 3;
   position: -webkit-sticky;
   position: sticky;
@@ -169,6 +178,7 @@ img:hover {
 marquee {
   width: -webkit-fill-available;
   margin-top: -8px;
+
 }
 
 @media (max-width: 600px) {
@@ -178,9 +188,13 @@ marquee {
 }
 
 #textabox-um-mig {
-  text-align: left;
-margin-left: 200px;
-margin-right: 200px;
+text-align: left;
+margin-left: 50px;
+margin-right: 50px;
+color: white;
+text-decoration: none;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
 }
 
 .texti-um-mig {
@@ -246,6 +260,7 @@ margin-left: 30px;
   text-align: center;
   font-size: 30px;
   letter-spacing: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .mynd-box {

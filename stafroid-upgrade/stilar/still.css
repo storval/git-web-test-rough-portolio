@@ -2,6 +2,8 @@
 
 body {
   background-color: black;
+  height: 100%;
+  cursor: url('../bara-hvit-symmetry-stjarna.cur'), auto;
 }
 
 @font-face {
@@ -9,6 +11,10 @@ body {
   src: url("../letur/Stafroid-Regular.otf") format("opentype");
   }
 
+  a:hover {
+    color: #FFD270;
+    cursor: url('../stjarna-pointer.cur'),default;
+  }
 
 
 a {
@@ -16,15 +22,17 @@ a {
   color: white;
   text-decoration: none;
   font-family: monospace;
-  word-spacing: 3px;
+  word-spacing: 10px;
 
 }
 
 .parent {
+  margin-top: 50px;
   display: flex;
   color: antiquewhite;
   justify-content: center;
   flex-shrink: 0;
+  height: 550px;
 }
 
 .head {
@@ -36,20 +44,17 @@ a {
 
 .divy {
     font-family: "Stafroid";
-    width: 35%;
+    width: 30%;
     background-repeat:no-repeat;
     background-position: center center;
     background-color: midnightblue;
     background-size: cover;
     writing-mode: vertical-lr;
     text-orientation: upright;
-    margin: 60px 7px;
-    /* margin-left: 7px;
-    margin-right: 7px; */
     display: flex;
     gap: 10px;
     flex-wrap: nowrap;
-    font-size: 40px;
+    font-size: 30px;
     outline: none;
     overflow: hidden;
     min-width: 200px;
@@ -81,4 +86,12 @@ a {
       width:50%;
       height:150px;
       color: antiquewhite;
+      letter-spacing: 10px;
 }
+
+
+marquee {
+  width: -webkit-fill-available;
+  margin-top: -8px;
+  color: white;
+} 
